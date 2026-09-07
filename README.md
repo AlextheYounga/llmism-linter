@@ -9,12 +9,11 @@ single Markdown or text file, or recursively scans a directory for `.md` and
 Install the CLI directly from GitHub:
 
 ```console
-cargo install --git https://github.com/<owner>/llmism-linter.git
+cargo install --git https://github.com/AlextheYounga/llmism-linter.git
 ```
 
-Replace `<owner>` with the GitHub account or organization that hosts this
-repository. Cargo installs the `llmisms` binary into `~/.cargo/bin`; ensure that
-directory is on your `PATH`, then run it from any local project:
+Cargo installs the `llmisms` binary into `~/.cargo/bin`; ensure that directory
+is on your `PATH`, then run it from any local project:
 
 ```console
 llmisms ./docs
